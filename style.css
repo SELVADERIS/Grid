@@ -1,21 +1,5 @@
 
-.grid-container{
-    grid-template-areas:  'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer';
-    gap: 7px;
-    background-color: rgb(24, 39, 40);
-    padding: 10px;
-}
-.grid-container > div{
-    background-color: rgb(182, 237, 247);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
-}
+
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
@@ -28,16 +12,17 @@
     'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #7eb9e9;
+  gap: 5px;
+  background-color: #151615;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(244, 243, 243, 0.97);
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 .item4 img{
